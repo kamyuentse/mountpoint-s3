@@ -1,7 +1,9 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"image": "mcr.microsoft.com/devcontainers/universal:2.3.1-focal",
 	"features": {
 		"ghcr.io/devcontainers/features/rust:1": {},
-		"ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {}
+		"ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {
+			"packages": "fuse,libfuse-dev,libclang-dev"
+		}
 	}
 }
